@@ -2,22 +2,28 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Button } from '..';
 import { laptopGirl } from '../../images';
-import { homeBanner, imgColumn } from '../../styles/homebanner.module.css';
+import {
+    homeBanner,
+    column1,
+    column2,
+} from '../../styles/homebanner.module.css';
 
 const Homebanner = () => {
     return (
         <Row className={`${homeBanner} row`}>
-            <Col lg={6}>
-                <h1>Revolutionizing</h1>
+            <Col className={column1} lg={6}>
+                <h1 className='mt-5'>Revolutionizing</h1>
                 <h1>the classroom</h1>
-                <div className='divider'></div>
-                <p>One platform for all, to engage ALL learners</p>
-                <div className='buttonGroup d-flex align-items-center'>
+                <hr className='divider' />
+                <p className='mb-0 mt-3'>
+                    One platform for all, to engage ALL learners
+                </p>
+                <div className='buttonGroup d-flex align-items-center mt-5'>
                     <Button bgColor='#055EB8' text='Try it Now' />
                     <Button bgColor='#48AC15' text='Schedule Demo' />
                 </div>
             </Col>
-            <Col className={`position-relative ${imgColumn}`} lg={6}>
+            <Col className={`position-relative ${column2}`} lg={6}>
                 <img
                     height='100%'
                     width='100%'

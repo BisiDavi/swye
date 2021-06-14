@@ -3,13 +3,35 @@
     height: 100%;
 }
 
-.imgColumn {
-    height: 450px;
+.homeBanner h1 {
+    color: #055eb8;
+    font: normal bold 72px/70px 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.column1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.column2 {
+    height: 500px;
 }
 .homeBanner img {
     position: absolute;
     height: inherit;
     width: 100%;
-    top: 60px;
+    top: 64px;
     right: 0px;
+}
+
+hr {
+    border: 1px solid #48ac15;
+    width: 150px;
+}
+
+p {
+    color: #055eb8;
+    font: normal bold 24px/40px 'Montserrat', sans-serif;
 }
