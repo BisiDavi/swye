@@ -12,7 +12,9 @@ export const StyledButton = styled.button`
 export const StyledImpactSection = styled.section`
     background-color: #055eb8;
     color: white;
-
+    p {
+        color: white;
+    }
     h3 {
         width: fit-content;
         margin: auto;
@@ -49,6 +51,23 @@ export const StyledFooter = styled.footer`
 export const Divider = styled.hr`
     border: 1px solid #48ac15;
     width: 150px;
+`;
+
+export const ArticleSection = styled.section`
+    span {
+        color: #48ac15;
+    }
+    h6 {
+        color: #055eb8;
+        font: normal bold 24px/28px sans-serif;
+    }
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+    }
 `;
 
 interface ButtonProps {

@@ -1,16 +1,17 @@
 import React, { FC } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
+import { ArticleSection } from '@styles';
 import Impact from '../impact';
 
 const Article: FC<ArticleProps> = ({ data }) => {
     const { image, inverted, title, description, impact, brand } = data;
     return (
-        <Container as='section' fluid>
+        <ArticleSection className='container-fluid'>
             {inverted ? (
                 <Row className='p-5'>
                     <Col lg={6}>
                         <h6>
-                            <span>SWYE</span>
+                            {brand && <span>SWYE</span>}
                             {brand}
                         </h6>
                         <h3 className='mt-2 mb-5'>{title}</h3>
@@ -32,7 +33,7 @@ const Article: FC<ArticleProps> = ({ data }) => {
                 </Row>
             )}
             {impact && <Impact data={impact} />}
-        </Container>
+        </ArticleSection>
     );
 };
 

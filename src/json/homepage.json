@@ -21,6 +21,7 @@
     },
     {
         "title": "Learner Management",
+        "brand": false,
         "description": "Teachers will use predictive analysis to proactively determine students that may be at risk. Using our machine learning algorithms, teachers can use mastery data to group students into whole groups, small groups, RTi, personalized and individualized instruction mods, all in one place. Through the use of this technology, teachers can easily track student mastery of content, level of student engagement, and measure outcomes. SWYE360 integrates with Student Information Systems making it easy for teachers to pull in student data into one environment to deliver instruction.",
         "inverted": false,
         "impact": [

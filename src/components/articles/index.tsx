@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
+import React from 'react';
 import Article from './article';
 
-const Articles: FC<ArticleProps> = ({ data }) => {
+const Articles = ({ data }: ArticleProps) => {
     return data.map((item, index) => <Article data={item} key={index} />);
 };
 
