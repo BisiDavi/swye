@@ -1,0 +1,15 @@
+.homeBanner {
+    width: 100%;
+    height: 100%;
+}
+
+.imgColumn {
+    height: 450px;
+}
+.homeBanner img {
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    top: 60px;
+    right: 0px;
+}

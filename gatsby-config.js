@@ -1,5 +1,6 @@
 module.exports = {
-    plugins: [
-
-    ]
-}
+    siteMetadata: {
+        siteName: 'SWYE',
+    },
+    plugins: [],
+};
