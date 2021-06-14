@@ -1,12 +1,9 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import { Divider } from '@styles';
 import { Button } from '..';
-import { laptopGirl } from '../../images';
-import {
-    homeBanner,
-    column1,
-    column2,
-} from '../../styles/homebanner.module.css';
+import { laptopGirl } from '@images';
+import { homeBanner, column1, column2 } from '@styles/homebanner.module.css';
 
 const Homebanner = () => {
     return (
@@ -14,7 +11,7 @@ const Homebanner = () => {
             <Col className={column1} lg={6}>
                 <h1 className='mt-5'>Revolutionizing</h1>
                 <h1>the classroom</h1>
-                <hr className='divider' />
+                <Divider />
                 <p className='mb-0 mt-3'>
                     One platform for all, to engage ALL learners
                 </p>

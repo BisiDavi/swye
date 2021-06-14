@@ -16,11 +16,13 @@
         "noEmit": true,
         "skipLibCheck": true,
         "moduleResolution": "node",
+        "resolveJsonModule": true,
         "baseUrl": ".",
         "allowJs": true,
         "paths": {
             "@containers/*": ["/src/containers/*"],
-            "@components/*": ["/src/components/*"]
+            "@components/*": ["/src/components/*"],
+            "@styles/*": ["/src/styles/*"]
         }
     }
 }

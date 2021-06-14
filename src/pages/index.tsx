@@ -1,11 +1,19 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Layout from '../containers/layout';
+import { Layout } from '@containers';
+import { Divider } from '@styles';
+import data from '@json/homepage.json';
+import Articles from '@components/articles';
 
 const IndexPage = () => {
+    console.log('data', data);
     return (
         <Layout>
-            <h1>SWYE App</h1>
+            <span className='d-flex mx-auto flex-column'>
+                <h3>Our Solutions</h3>
+                <Divider />
+            </span>
+            <Articles data={data} />
         </Layout>
     );
 };

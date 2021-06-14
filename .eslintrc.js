@@ -34,4 +34,15 @@ module.exports = {
             },
         ],
     },
+    settings: {
+        'import/resolver': {
+            alias: [
+                ['@components', './src/components'],
+                ['@styles', './src/styles'],
+                ['@images', './src/images'],
+                ['@json', './src/json'],
+                ['@containers', './src/containers'],
+            ],
+        },
+    },
 };

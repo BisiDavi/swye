@@ -1,18 +1,23 @@
 import React, { FC } from 'react';
-import { StyledImpactSection } from 'src/styles';
+import { Row } from 'react-bootstrap';
+import { StyledImpactSection } from '../../styles';
 import { checkIcon } from '../../images';
 
 const Impact: FC<ImpactProps> = ({ data }) => {
     return (
-        <StyledImpactSection>
-            <h3>Impact:</h3>
-            {data.map((item, index) => (
-                <span key={index}>
-                    <img src={checkIcon} alt='check icon' />
-                    <p>{item}</p>
-                </span>
-            ))}
-        </StyledImpactSection>
+        <Row>
+            <StyledImpactSection className='col-12 p-5'>
+                <h3>Impact:</h3>
+                <div className='d-flex align-items-center justify-content-center'>
+                    {data.map((item, index) => (
+                        <span className='features' key={index}>
+                            <img src={checkIcon} alt='check icon' />
+                            <p>{item}</p>
+                        </span>
+                    ))}
+                </div>
+            </StyledImpactSection>
+        </Row>
     );
 };
 

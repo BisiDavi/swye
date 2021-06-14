@@ -12,6 +12,22 @@ export const StyledButton = styled.button`
 export const StyledImpactSection = styled.section`
     background-color: #055eb8;
     color: white;
+
+    h3 {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .features {
+        margin: 20px;
+        width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 `;
 
 export const StyledHeader = styled.header`
@@ -30,7 +46,10 @@ export const StyledFooter = styled.footer`
     font-family: 'Monsterat', sans-serif;
 `;
 
-
+export const Divider = styled.hr`
+    border: 1px solid #48ac15;
+    width: 150px;
+`;
 
 interface ButtonProps {
     bgColor: string;

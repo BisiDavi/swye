@@ -1,28 +1,52 @@
 [
     {
-        "author": {
-            "brand": "360 Author ®",
-            "title": "Learner Variability Strategies",
-            "description": "Through our partnership with Digital Promise and the Learning Science research, we accommodate and integrate different learner variability in our content creation. Teachers do not have the time to know the  “what” needs to be included in their lessons to accommodate all learners. Through the use of SWYE360 Author®, teachers easily create lessons that have Learner Variability strategies embedded in each lesson to accommodate ALL  learners focusing on four broad factors, namely, Literacy and Numeracy, Cognition, Social and Emotional Learning, and Student background. Using the learning science research embedded in SWYE360 Author ® to create each Learner Variability Project Learner Model, we follow a systematic methodology led by expert researchers. The process is also overseen by an advisory board of leading content area and learning sciences experts. Learner variability, as defined, embraces both students who struggle and those who thrive. Why? Because of the natural variability found in each person, in school, and beyond.Targeted for Tier 2, Tier 3 students, SpEd and learners with IEP’s. Teachers leverage learner variability strategies to bridge the gap on learning losses."
-        },
-        "caap": {
-            "brand": "360 CAAP ® ",
-            "title": "Data Analytics and Predictive Analysis",
-            "description": "Leveraging SWYE360 CAAP®  technology, using machine learning, teachers and school leaders can determine which students are at risk before they fail their next EOC, state test, and or benchmark assessment. SWYE360 CAAP ® is able to predict student learning outcomes using hundreds of data points including historical data, student profiles, and many more. This creates a unique opportunity for teachers to proactively manage and engage different learners by incorporating different learner variability strategies in their lessons tailored for specific groups of students before it’s too late. Teachers can create custom reports and automatic follow-up tasks using clicks, not code, for groupings and individualized instruction. Easily go from alert to action to ensure all students are quickly supported. This helps teachers have actionable data to drive daily instruction. Effective formative assessments empower educators to identify learning strengths and deficits and make critical instructional decisions that improve student learning."
-        },
-        "learner": {
-            "title": "Learner Management",
-            "description": "Teachers will use predictive analysis to proactively determine students that may be at risk. Using our machine learning algorithms, teachers can use mastery data to group students into whole groups, small groups, RTi, personalized and individualized instruction mods, all in one place. Through the use of this technology, teachers can easily track student mastery of content, level of student engagement, and measure outcomes. SWYE360 integrates with Student Information Systems making it easy for teachers to pull in student data into one environment to deliver instruction."
-        },
-        "vlassroom": {
-            "brand": "360 Vlassroom ®",
-            "title": "Integrated Virtual Classroom",
-            "description": "Using video technology, SWYE360 Vlassroom ® has integrated a virtual classroom for synchronous and asynchronous teacher-led virtual instruction. With SWYE360 Vlassroom ® it supports face-to-face, hybrid, simultaneous learning, or 100% virtual instruction. The tool was developed for education, including features like multiple whiteboards, on-whiteboard student and teacher collaboration, co-teaching, shared notes, SEL check-ins, record sessions, formative assessments, breakout rooms, and many more. SWYE360 Vlassroom ® is embedded within SWYE360 and teachers or students do not need to leave the environment to click multiple links to join the live sessions. It’s all integrated into the environment, and by the click of a button, it launches the user into the SWYE360 Vlassroom ®. This technology was developed with three users in mind, the students, teachers, and parents."
-        },
-        "connect": {
-            "brand": "360 Connect ®",
-            "title": "Community Connection",
-            "description": "Integrated within SWYE360 Connect ®  are our communication portals for Parents, Students, and Teachers. Teachers can easily connect with parents on two-way communication via SMS or virtual meetings. Through this process, teachers do not disclose their personal phone numbers as that communication is encrypted. Parents can also easily engage with their learners' teachers through the Teacher Connect portal that's embedded on the parent login. This drives the level of parental engagement in the students' learning. Teachers can also engage one on one with learners that may have an IEP for more personalized learning through the Student Connect. The communication can either be video, audio, or text chatting, supporting all learner variabilities."
-        }
+        "brand": "360 Author ®",
+        "title": "Learner Variability Strategies",
+        "description": "Through our partnership with Digital Promise and the Learning Science research, we accommodate and integrate different learner variability in our content creation. Teachers do not have the time to know the  “what” needs to be included in their lessons to accommodate all learners. Through the use of SWYE360 Author®, teachers easily create lessons that have Learner Variability strategies embedded in each lesson to accommodate ALL  learners focusing on four broad factors, namely, Literacy and Numeracy, Cognition, Social and Emotional Learning, and Student background. Using the learning science research embedded in SWYE360 Author ® to create each Learner Variability Project Learner Model, we follow a systematic methodology led by expert researchers. The process is also overseen by an advisory board of leading content area and learning sciences experts. Learner variability, as defined, embraces both students who struggle and those who thrive. Why? Because of the natural variability found in each person, in school, and beyond.Targeted for Tier 2, Tier 3 students, SpEd and learners with IEP’s. Teachers leverage learner variability strategies to bridge the gap on learning losses.",
+        "image": "../images/learner.png",
+        "impact": [
+            "Improve test scores",
+            "Intervention(Tier 2, Tier 3)",
+            "IEP, Personalized Learning, Individualized learning",
+            "Collaborative lesson/Unit planning between teachers teams",
+            "Instructional coaching"
+        ],
+        "inverted": false
+    },
+    {
+        "brand": "360 CAAP ® ",
+        "title": "Data Analytics and Predictive Analysis",
+        "description": "Leveraging SWYE360 CAAP®  technology, using machine learning, teachers and school leaders can determine which students are at risk before they fail their next EOC, state test, and or benchmark assessment. SWYE360 CAAP ® is able to predict student learning outcomes using hundreds of data points including historical data, student profiles, and many more. This creates a unique opportunity for teachers to proactively manage and engage different learners by incorporating different learner variability strategies in their lessons tailored for specific groups of students before it’s too late. Teachers can create custom reports and automatic follow-up tasks using clicks, not code, for groupings and individualized instruction. Easily go from alert to action to ensure all students are quickly supported. This helps teachers have actionable data to drive daily instruction. Effective formative assessments empower educators to identify learning strengths and deficits and make critical instructional decisions that improve student learning.",
+        "inverted": true
+    },
+    {
+        "title": "Learner Management",
+        "description": "Teachers will use predictive analysis to proactively determine students that may be at risk. Using our machine learning algorithms, teachers can use mastery data to group students into whole groups, small groups, RTi, personalized and individualized instruction mods, all in one place. Through the use of this technology, teachers can easily track student mastery of content, level of student engagement, and measure outcomes. SWYE360 integrates with Student Information Systems making it easy for teachers to pull in student data into one environment to deliver instruction.",
+        "inverted": false,
+        "impact": [
+            "Lower Drop-out rates",
+            "Improve learning outcomes",
+            "Data management and accountablilty",
+            "Identity students at risks before the next benchmark, EOC, state test"
+        ]
+    },
+    {
+        "brand": "360 Vlassroom ®",
+        "title": "Integrated Virtual Classroom",
+        "description": "Using video technology, SWYE360 Vlassroom ® has integrated a virtual classroom for synchronous and asynchronous teacher-led virtual instruction. With SWYE360 Vlassroom ® it supports face-to-face, hybrid, simultaneous learning, or 100% virtual instruction. The tool was developed for education, including features like multiple whiteboards, on-whiteboard student and teacher collaboration, co-teaching, shared notes, SEL check-ins, record sessions, formative assessments, breakout rooms, and many more. SWYE360 Vlassroom ® is embedded within SWYE360 and teachers or students do not need to leave the environment to click multiple links to join the live sessions. It’s all integrated into the environment, and by the click of a button, it launches the user into the SWYE360 Vlassroom ®. This technology was developed with three users in mind, the students, teachers, and parents.",
+        "inverted": true,
+        "impact": [
+            "Average Daily Attendance tracking",
+            "Instructional minutes tracking",
+            "Multiple whiteboards for engaging instruction",
+            "Social Emotional Learning check-ins",
+            "Integrated 1:1 instruction"
+        ]
+    },
+    {
+        "brand": "360 Connect ®",
+        "title": "Community Connection",
+        "description": "Integrated within SWYE360 Connect ®  are our communication portals for Parents, Students, and Teachers. Teachers can easily connect with parents on two-way communication via SMS or virtual meetings. Through this process, teachers do not disclose their personal phone numbers as that communication is encrypted. Parents can also easily engage with their learners' teachers through the Teacher Connect portal that's embedded on the parent login. This drives the level of parental engagement in the students' learning. Teachers can also engage one on one with learners that may have an IEP for more personalized learning through the Student Connect. The communication can either be video, audio, or text chatting, supporting all learner variabilities.",
+        "inverted": false
     }
 ]
