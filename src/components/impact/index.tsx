@@ -1,12 +1,13 @@
 import React, { FC } from 'react';
 import { Row } from 'react-bootstrap';
 import { StyledImpactSection } from '../../styles';
-import { checkIcon } from '../../images';
+import { checkIcon, arrow } from '../../images';
 
 const Impact: FC<ImpactProps> = ({ data }) => {
     return (
         <Row>
             <StyledImpactSection className='col-12 p-5'>
+                <img src={arrow} className='arrow' alt='arrow' />
                 <h3>Impact:</h3>
                 <div className='d-flex align-items-center justify-content-center'>
                     {data.map((item, index) => (

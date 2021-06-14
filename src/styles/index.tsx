@@ -12,6 +12,12 @@ export const StyledButton = styled.button`
 export const StyledImpactSection = styled.section`
     background-color: #055eb8;
     color: white;
+    position: relative;
+    .arrow {
+        position: absolute;
+        top: -10px;
+        left: 48%;
+    }
     p {
         color: white;
     }

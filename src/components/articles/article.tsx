@@ -10,10 +10,12 @@ const Article: FC<ArticleProps> = ({ data }) => {
             {inverted ? (
                 <Row className='p-5'>
                     <Col lg={6}>
-                        <h6>
-                            {brand && <span>SWYE</span>}
-                            {brand}
-                        </h6>
+                        {brand && (
+                            <h6>
+                                <span>SWYE</span>
+                                {brand}
+                            </h6>
+                        )}
                         <h3 className='mt-2 mb-5'>{title}</h3>
                         <p>{description}</p>
                     </Col>
@@ -23,10 +25,12 @@ const Article: FC<ArticleProps> = ({ data }) => {
                 <Row className='p-5'>
                     <Col lg={6}>{image && <img src={image} alt={title} />}</Col>
                     <Col lg={6}>
-                        <h6>
-                            <span>SWYE</span>
-                            {brand}
-                        </h6>
+                        {brand && (
+                            <h6>
+                                <span>SWYE</span>
+                                {brand}
+                            </h6>
+                        )}
                         <h3 className='mt-2 mb-5'>{title}</h3>
                         <p>{description}</p>
                     </Col>
