@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Auth, Homebanner, Logo } from '../components';
-import { header } from '../styles/header.module.css';
+import { StyledHeader } from '../styles';
 
 const Header = () => {
     return (
-        <header className={`${header} py-4`}>
+        <StyledHeader className='py-4'>
             <Container>
                 <Row className='align-items-center justify-content-between'>
                     <Col lg={2}>
@@ -17,7 +17,7 @@ const Header = () => {
                 </Row>
                 <Homebanner />
             </Container>
-        </header>
+        </StyledHeader>
     );
 };
 

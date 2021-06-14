@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Logo, SocialIcons } from '../components';
-import { footer } from '../styles/footer.module.css';
+import { StyledFooter } from '../styles';
 
 const Footer = () => {
     return (
-        <footer className={footer}>
+        <StyledFooter>
             <Container>
                 <Row className='align-items-center'>
                     <Col lg={2}>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        </footer>
+        </StyledFooter>
     );
 };
 

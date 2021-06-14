@@ -31,7 +31,7 @@ hr {
     width: 150px;
 }
 
-p {
+.column1 p {
     color: #055eb8;
     font: normal bold 24px/40px 'Montserrat', sans-serif;
 }

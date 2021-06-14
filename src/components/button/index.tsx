@@ -1,12 +1,8 @@
 import React, { FC } from 'react';
-import { button } from '../../styles/button.module.css';
+import { StyledButton } from '../../styles';
 
 const Button: FC<ButtonProps> = ({ text, bgColor }) => {
-    return (
-        <button className={button} style={{ background: bgColor }}>
-            {text}
-        </button>
-    );
+    return <StyledButton bgColor={bgColor}>{text}</StyledButton>;
 };
 
 interface ButtonProps {
