@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Layout } from '@containers';
+import { Layout } from '@containers/.';
 import { Divider } from '@styles';
 import data from '@json/homepage.json';
 import Articles from '@components/articles';

@@ -9,10 +9,21 @@ export const StyledButton = styled.button`
     margin: 10px;
 `;
 
+export const layout = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+`;
+
 export const StyledImpactSection = styled.section`
     background-color: #055eb8;
     color: white;
     position: relative;
+    .impact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .arrow {
         position: absolute;
         top: -10px;
@@ -35,6 +46,12 @@ export const StyledImpactSection = styled.section`
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    @media (max-width: 480px) {
+        .impact {
+            flex-direction: column;
+        }
     }
 `;
 
@@ -73,6 +90,12 @@ export const ArticleSection = styled.section`
         font-weight: 400;
         line-height: 44px;
         letter-spacing: 0em;
+    }
+    @media (max-width: 768px) {
+        p {
+            line-height: 30px;
+            font-size: 20px;
+        }
     }
 `;
 

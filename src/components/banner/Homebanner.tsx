@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { Divider } from '@styles';
+import { Divider } from '@styles/.';
 import { Button } from '..';
-import { laptopGirl } from '@images';
+import { laptopGirl } from '@images/.';
 import { homeBanner, column1, column2 } from '@styles/homebanner.module.css';
 
 const Homebanner = () => {

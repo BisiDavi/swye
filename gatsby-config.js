@@ -2,5 +2,6 @@ module.exports = {
     siteMetadata: {
         siteName: 'SWYE',
     },
-    plugins: [],
+		flags: { PRESERVE_WEBPACK_CACHE: true },
+		plugins: []
 };

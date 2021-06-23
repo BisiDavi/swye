@@ -26,8 +26,13 @@
     right: 0px;
 }
 
-
 .column1 p {
     color: #055eb8;
     font: normal bold 24px/40px 'Montserrat', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .homeBanner h1 {
+        font: normal bold 25px/20px 'Montserrat', sans-serif;
+    }
 }

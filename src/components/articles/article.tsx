@@ -8,8 +8,8 @@ const Article: FC<ArticleProps> = ({ data }) => {
     return (
         <ArticleSection className='container-fluid'>
             {inverted ? (
-                <Row className='p-5'>
-                    <Col lg={6}>
+                <Row className='p-3 p-lg-5'>
+                    <Col className='col-12' lg={6}>
                         {brand && (
                             <h6>
                                 <span>SWYE</span>
@@ -19,12 +19,16 @@ const Article: FC<ArticleProps> = ({ data }) => {
                         <h3 className='mt-2 mb-5'>{title}</h3>
                         <p>{description}</p>
                     </Col>
-                    <Col lg={6}>{image && <img src={image} alt={title} />}</Col>
+                    <Col className='col-12' lg={6}>
+                        {image && <img src={image} alt={title} />}
+                    </Col>
                 </Row>
             ) : (
-                <Row className='p-5'>
-                    <Col lg={6}>{image && <img src={image} alt={title} />}</Col>
-                    <Col lg={6}>
+                <Row className='p-3 p-lg-5'>
+                    <Col className='col-12' lg={6}>
+                        {image && <img src={image} alt={title} />}
+                    </Col>
+                    <Col className='col-12' lg={6}>
                         {brand && (
                             <h6>
                                 <span>SWYE</span>
